@@ -1,5 +1,9 @@
 let userAsync, userSync, userFromPromise;
+<<<<<<< HEAD
  console.log('Hola, Masha!: ', userSync);
+=======
+console.log('userSync before init: 980989080', userSync);
+>>>>>>> b2de2fb7a7cfdbdeb5feeb04731564b601bd725c
 /*
 function getUserSync() {
     return {
@@ -11,6 +15,7 @@ function getUserSync() {
 
 //new test comment
 //one more
+///9809
 
  userSync = getUserSync();
  console.log('userSync afer init: ', userSync);
