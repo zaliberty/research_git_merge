@@ -11,6 +11,7 @@ function getUserSync() {
 
 //new test comment
 //one more
+///9809
 
  userSync = getUserSync();
  console.log('userSync afer init: ', userSync);
