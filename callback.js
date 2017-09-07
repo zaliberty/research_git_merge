@@ -1,6 +1,5 @@
 let userAsync, userSync, userFromPromise;
 console.log('userSync before init:', userSync);
-console.log('Hola, Masha! And add some words: ', userSync);
 
 function getUserSync() {
     return {
