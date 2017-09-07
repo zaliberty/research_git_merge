@@ -1,11 +1,13 @@
 let userAsync, userSync, userFromPromise;
 console.log('userSync before init: ', userSync);
+/*
 function getUserSync() {
     return {
         username: 'node',
         password: 'js'
     }
 }
+*/
 
  userSync = getUserSync();
  console.log('userSync afer init: ', userSync);
