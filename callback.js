@@ -1,5 +1,5 @@
 let userAsync, userSync, userFromPromise;
-console.log('userSync before init: ', userSync);
+// console.log('userSync before init: ', userSync);
 /*
 function getUserSync() {
     return {
@@ -46,16 +46,16 @@ getUserFromPromise().then(user => {
 // установил версию 8, код всё равно не работает
 // TODO: разобраться почему!
 // ошибка в строке const user = await getUserAsync();
-async function getUserAsync() {
-    return new Promise((resolve, reject) => {
-        setTimeout(()=> {
-            resolve({
-                username: 'node',
-                password: 'js'
-            });
-        }, 3000);
-    });
-}
+// async function getUserAsync() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(()=> {
+//             resolve({
+//                 username: 'node',
+//                 password: 'js'
+//             });
+//         }, 3000);
+//     });
+// }
 
 // const user = await getUserAsync();
 // console.log('user getted from Async/Await function: ', user);
