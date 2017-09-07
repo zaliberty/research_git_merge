@@ -11,3 +11,5 @@ http.createServer((req, res) => {
     const stream = fs.createReadStream('text.txt');
     stream.pipe(res);
 }).listen(3000);
+
+//https://www.youtube.com/watch?v=_EhqwOY4Ei0&t=2038s
