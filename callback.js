@@ -10,6 +10,7 @@ function getUserSync() {
 */
 
 //new test comment
+//one more
 
  userSync = getUserSync();
  console.log('userSync afer init: ', userSync);
